@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>počty posloupností</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Řešení aritmetické posloupnosti</h1>
+    Zadejte první člen soustavy: <input type = "number" id = "a_value_count_1"> </br>
+    Jeho n-tá hodnota: <input type = "number" id = "a_n_count_1"> </br>
+    Zadejte druhý člen soustavy: <input type = "number" id = "a_value_count_2"> </br>
+    Jeho n-tá hodnota: <input type = "number" id = "a_n_count_2"> </br>
+    Zadejte d:<input type = "number" id = "d_count"> </br>
+    Zadejte kolik chcete vypsat prvních čísel posloupnosti:<input type = "number" id = "v_count"> </br>
+    <input type = "button" value= "provést akci !" onclick = "arit_posl()"></br>
+    Diference: <div id = "diference"></div>
+    a1: <div id = "a1"></div>
+    a2: <div id = "a2"></div>
+    Výpis prvních n-členů: <div id="vypis_a_ap"></div>
+
+    <h3>Součet n-tých členů v posloupnosti</h3>
+    Zadejte, maximální číslo: <input type = "number" id = "num"> </br>
+    <input type = "button" value = "provést akci !" onclick = "f_posloupnost()"></br>
+    <div id = "vypis"></div>
+
+    <h4> Prvočísla </h4>
+    Vypiš prvních <input type = "number" id = "num_p"> prvočísel: <input type = "button" value = "provést akci !" onclick = "Prvocisla()">
+    <div id = "vypis_p"></div>
+
+  
+  </body>
+</html>
